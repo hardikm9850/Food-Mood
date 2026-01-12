@@ -1,0 +1,10 @@
+apply from: "$rootDir/common-dynamic-feature.gradle"
+android.namespace 'com.mobiledevpro.chat.main'
+
+android.defaultConfig {
+    applicationId "com.mobiledevpro.chat.main"
+}
+
+dependencies {
+    implementation features.chatCore
+}
