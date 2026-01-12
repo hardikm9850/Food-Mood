@@ -11,7 +11,6 @@ buildscript {
                     "crashlytics": "2.9.1",
                     "performance": "1.4.1"
             ],
-            "r8"            : "3.3.75"
     ]
 
     repositories {
@@ -27,7 +26,6 @@ buildscript {
         classpath "com.google.firebase:perf-plugin:$rootVersions.firebasePlugin.performance"
         classpath "io.insert-koin:koin-gradle-plugin:$rootVersions.koin"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$rootVersions.navigation"
-        classpath "com.android.tools:r8:$rootVersions.r8"
 
 
         //it uses to publish 'common' module as library to JitPack.
